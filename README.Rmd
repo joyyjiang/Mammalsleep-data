@@ -1,3 +1,31 @@
+---
+output: pdf_document
+---
 ## Sleep in Mammals Dataset
 
+This dataset is from a scientific research paper "Sleep in Mammals: Ecological and Constitutional Correlates", by Allison, T. and Cicchetti, D. published on Science in 1976. It is available in the faraway library.  The mammalsleep data frame has 62 rows and 10 columns.
 
+variable | description
+---------|-----------
+body |	body weight in kg
+brain	| brain weight in g
+nondream |	slow wave ("nondreaming") sleep (SWS) (hrs/day)
+dream	| paradoxical ("dreaming") sleep (PS) (hrs/day)
+sleep	| total sleep (hrs/day) (sum of slow wave and paradoxical sleep)
+lifespan |	maximum life span (years)
+gestation |	gestation time (days)
+predation	| predation index (1-5) 1 = minimum (least likely to be preyed upon) to 5 = maximum (most likely to be preyed upon)
+exposure |	sleep exposure index (1-5) 1 = least exposed (e.g. animal sleeps in a well-protected den) 5 = most exposed
+danger |	overall danger index (1-5) (based on the above two indices and other information) 1 = least danger (from other animals) 5 = most danger (from other animals)
+
+This analysis contains
+1. data cleaning
+2. data summary
+3. linear regression model
+4. colinearity 
+5. model selection
+6. added variable plot
+7. residual analysis
+8. further discussion
+
+The detailed analysis report can be found in the word document in the repo.
