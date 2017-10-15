@@ -5,6 +5,7 @@ summary(mammalsleep)
 head(mammalsleep)
 plot(mammalsleep)
 
+# remove NAs
 complete = na.omit(mammalsleep)
 cor(complete)
 fit= lm(sleep ~ body+brain + nondream + dream + lifespan + gestation + predation + exposure + danger,
@@ -42,10 +43,14 @@ plot(e1,e2)
 #################################
 
 best = lm(sleep~ gestation + predation + danger, data= complete)
+par(mfrow = c(2,2))
 plot(best)
+
 
 #### remove 3 outliers and 1 high leverage point
 short_complete = complete[-c(5,7,33,42),]
 short_best = lm(sleep~ gestation + predation + danger, data = short_complete)
 summary(short_best)
+
+
 
