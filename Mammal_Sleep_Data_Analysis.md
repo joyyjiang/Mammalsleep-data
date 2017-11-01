@@ -1,3 +1,8 @@
+Mammal Sleep Data Analysis
+--------------------------
+
+author: Yue Jiang
+
 This data set comes from a research paper called "Sleep in Mammals:
 Ecological and Constitutional Correlates" by Allison, T. and Cicchetti,
 D., published in "Science" in 1976. It is available in faraway package.

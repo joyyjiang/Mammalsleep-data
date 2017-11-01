@@ -1,12 +1,12 @@
 ---
-output: pdf_document
+output: md_document
 ---
-## Sleep in Mammals Dataset
+## Sleep in Mammals Dataset by Yue Jiang
 
 This dataset is from a scientific research paper "Sleep in Mammals: Ecological and Constitutional Correlates", by Allison, T. and Cicchetti, D. published on Science in 1976. It is available in the faraway library.  The mammalsleep data frame has 62 rows and 10 columns.
 
 variable | description
----------|-----------
+---------|------------------------------------------
 body |	body weight in kg
 brain	| brain weight in g
 nondream |	slow wave ("nondreaming") sleep (SWS) (hrs/day)

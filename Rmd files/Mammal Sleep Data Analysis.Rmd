@@ -4,7 +4,8 @@ author: Yue Jiang
 date: Oct 14, 2017
 output: md_document
 ---
-
+## Mammal Sleep Data Analysis
+author: Yue Jiang
 
   This data set comes from a research paper called "Sleep in Mammals: Ecological and Constitutional Correlates" by Allison, T. and Cicchetti, D., published in "Science" in 1976.  It is available in faraway package. The mammalsleep data frame has 62 rows and 10 columns.  
   The following table explains the meaning and measurement units of each variable. 
